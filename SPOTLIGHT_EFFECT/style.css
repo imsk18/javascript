@@ -1,0 +1,33 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+background-color: rgb(124, 190, 65);
+}
+body{
+    /* cursor: none; */
+    background-image: url("Rcb.jpg");
+  
+    background-size: cover;
+    /* background-position: center; */
+}
+:root{
+    --x:300px;
+    --y:300px;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: crimson;
+    margin:auto;
+    
+ background:radial-gradient(120px at var(--x) var(--y), rgba(255, 255, 255, 0)
+ ,rgba(10, 10, 10, 0.9)) ;
+
+  
+}
+

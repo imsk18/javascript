@@ -1,0 +1,45 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  flex-wrap: wrap;
+    
+}
+.card{
+    height: 180px;
+    width: 150px;
+    background-color: rgb(198, 199, 201);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+button{
+    background-color: rgba(0, 0, 255, 0.772);
+    color: white;
+    border: transparent;
+    padding: 5PX 10PX;
+    border-radius: 10PX;
+    font-size: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
