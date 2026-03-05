@@ -6,7 +6,7 @@ box-sizing: border-box;
 html,body{
 width: 100%;
 height: 100%;
-background-color: rgb(124, 190, 65);
+/* background-color: rgb(124, 190, 65); */
 }
 body{
     /* cursor: none; */
@@ -22,12 +22,31 @@ body{
 .box{
     height: 100%;
     width: 100%;
-    background-color: crimson;
+    /* background-color: crimson; */
     margin:auto;
     
- background:radial-gradient(120px at var(--x) var(--y), rgba(255, 255, 255, 0)
- ,rgba(10, 10, 10, 0.9)) ;
+ background:radial-gradient(120px at var(--x) var(--y), rgba(11, 179, 179, -0)
+ ,rgb(224, 64, 64)) ;
 
   
+}
+.box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.box1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 p{
+    text-align: center;
+    color: greenyellow;
+    font-size: 30px;
 }
 
